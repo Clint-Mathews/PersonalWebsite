@@ -1,4 +1,5 @@
 {
+  "homepage": "http://Clint-Mathews.github.io/PersonalWebsite",
   "name": "my-website",
   "version": "0.1.0",
   "private": true,
@@ -12,6 +13,7 @@
     "@types/react-dom": "^17.0.0",
     "@types/react-scroll": "^1.8.3",
     "@types/styled-components": "^5.1.11",
+    "gh-pages": "^3.2.3",
     "react": "^17.0.2",
     "react-dom": "^17.0.2",
     "react-icons": "^4.2.0",
@@ -23,6 +25,8 @@
     "web-vitals": "^1.0.1"
   },
   "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
@@ -47,6 +51,7 @@
     ]
   },
   "devDependencies": {
-    "@types/react-router-dom": "^5.1.8"
+    "@types/react-router-dom": "^5.1.8",
+    "gh-pages": "^3.2.3"
   }
 }
