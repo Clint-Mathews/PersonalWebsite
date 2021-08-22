@@ -1,3 +1,5 @@
+import InfoSection from "pages/info";
+import { homeObjOne, homeObjTwo } from "pages/info/data";
 import { useState } from "react";
 import { ReactElement } from "react";
 import Navbar from "../../components/Navbar";
@@ -14,6 +16,8 @@ function Home(): ReactElement {
         <Sidebar isOpen={isOpen} toggle={toggle}/>
         <Navbar toggle={toggle}/>
         <Main />
+        <InfoSection {...homeObjOne} />
+        <InfoSection {...homeObjTwo} />
         </>
     );
 }
