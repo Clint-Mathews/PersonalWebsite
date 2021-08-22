@@ -1,3 +1,5 @@
+import Footer from "components/Footer";
+import Services from "components/Services";
 import InfoSection from "pages/info";
 import { homeObjOne, homeObjTwo } from "pages/info/data";
 import { useState } from "react";
@@ -17,7 +19,9 @@ function Home(): ReactElement {
         <Navbar toggle={toggle}/>
         <Main />
         <InfoSection {...homeObjOne} />
+        <Services />
         <InfoSection {...homeObjTwo} />
+        <Footer />
         </>
     );
 }

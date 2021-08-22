@@ -17,11 +17,13 @@ function Main(): ReactElement {
                 <MainH1>Main Page</MainH1>
                 <MainP>Thallu</MainP>
                 <MainBtnWrapper>
-                    <Button to="signup"
+                    <Button to="about"
                         onMouseEnter={onHover}
                         onMouseLeave={onHover}
                         primary={true}
-                        dark={true}>
+                        dark={true}
+                        smooth={true} duration={500} spy={true} offset={-80}
+                        >
                             
                         Get started{hover ? <ArrowForward /> : <ArrowRight />}
                     </Button>

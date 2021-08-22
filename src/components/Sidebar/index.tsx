@@ -15,15 +15,18 @@ const Sidebar = ({isOpen,toggle}:any) => {
                     <SidebarLink to="about" onClick={toggle}>
                         About
                     </SidebarLink>
-                    <SidebarLink to="contactme" onClick={toggle}>
+                    <SidebarLink to="services" onClick={toggle}>
+                        Services
+                    </SidebarLink>
+                    <SidebarLink to="contact" onClick={toggle}>
                         Contact me
                     </SidebarLink>
-                    <SidebarLink to="/downloadresume" onClick={toggle}>
-                        Download Resume
+                    <SidebarLink to="/ContactMe" onClick={toggle}>
+                        Contact Me
                     </SidebarLink>
                 </SidebarMenu>
                 <SidebtnWrap>
-                    <SiderbarRoute to="/signIn" onClick={toggle}>Sign in</SiderbarRoute>
+                    <SiderbarRoute to="/PersonalWebsite/ContactMe" onClick={toggle}>Sign in</SiderbarRoute>
                 </SidebtnWrap>
             </SidebarWrapper>
         </SidebarContainer>

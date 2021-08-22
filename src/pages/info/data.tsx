@@ -28,7 +28,7 @@ export const homeObjTwo = {
     imgStart: true,
     alt: 'Car',
     img: Img,
-    dark:false,
-    primary:false,
-    darkText:false,
+    dark:true,
+    primary:true,
+    darkText:true,
 }

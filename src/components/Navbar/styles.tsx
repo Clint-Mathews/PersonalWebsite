@@ -3,8 +3,8 @@ import {Link as LinkR} from 'react-router-dom';
 import {Link} from 'react-scroll';
 import { isAbsolute } from 'path';
 
-const Nav = styled.nav`
-    background: #000;
+const Nav = styled.nav<{scrollNav:any}>`
+    background: ${({scrollNav})=>(scrollNav ? '#000':'transparent')};
     height: 80px;
     margin-top: -80px;
     display: flex;
@@ -77,7 +77,7 @@ const NavLinks = styled(Link)`
     cursor: pointer;
 
     &.active{
-        border-button: 3px solid #01bf71;
+        border-bottom: 3px solid #01bf71;
     }
 `;
 const NavBtn = styled.nav`

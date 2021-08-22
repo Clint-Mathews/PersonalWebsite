@@ -47,3 +47,5 @@ To learn React, check out the [React documentation](https://reactjs.org/).
 
 
 ## This project shows Clint Mathews portfolio.
+
+If for development can take pull and do updates.
