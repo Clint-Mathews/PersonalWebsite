@@ -22,6 +22,7 @@ function Main(): ReactElement {
                         onMouseLeave={onHover}
                         primary={true}
                         dark={true}>
+                            
                         Get started{hover ? <ArrowForward /> : <ArrowRight />}
                     </Button>
                 </MainBtnWrapper>
