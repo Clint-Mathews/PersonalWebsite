@@ -8,7 +8,7 @@ const ContactMe = () => {
     return (
         <Container>
             <FormWrap>
-                <Icon to='/PersonalWebsite'>Clint</Icon>
+                <Icon to='/PersonalWebsite'>CLINT MATHEWS</Icon>
                 <FormContent>
                     <Form action="#">
                         <FormH1>Contact Me using.</FormH1>

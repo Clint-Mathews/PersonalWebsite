@@ -25,7 +25,7 @@ const Navbar = ({toggle}:any) => {
             <Nav scrollNav={scrollNav}>
                 <NavbarContainer>
                     <NavLogo to="/PersonalWebsite" onClick={toggleHome}>
-                        Clint
+                        CLINT MATHEWS
                     </NavLogo>
                     <MobileIcon onClick={toggle}>
                         <FaBars />
@@ -44,16 +44,16 @@ const Navbar = ({toggle}:any) => {
                         <NavItem>
                             <NavLinks to="services"
                             smooth={true} duration={500} spy={true} offset={-80}
-                            >Services</NavLinks>
+                            >Education</NavLinks>
                         </NavItem>
                         <NavItem>
-                            <NavLinks to="contact"
+                            <NavLinks to="experience"
                             smooth={true} duration={500} spy={true} offset={-80}
-                            >Contact Me</NavLinks>
+                            >Work Experience</NavLinks>
                         </NavItem>
                     </NavMenu>
                     <NavBtn>
-                        <NavBtnLink to="/PersonalWebsite/ContactMe">Contact Me</NavBtnLink>
+                        <NavBtnLink smooth={true} duration={500} spy={true} offset={-80} to="footer">Contact Me</NavBtnLink>
                     </NavBtn>
                 </NavbarContainer>
             </Nav>

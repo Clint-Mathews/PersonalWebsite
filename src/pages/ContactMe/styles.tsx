@@ -93,7 +93,7 @@ border-radius: 4px;
 `;
 
 const FormButton = styled.button`
-background: #01bf71;
+background: #7AE5F5;
 padding: 16px 0;
 border: none;
 border-radius: 4px;

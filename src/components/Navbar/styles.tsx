@@ -4,7 +4,7 @@ import {Link} from 'react-scroll';
 import { isAbsolute } from 'path';
 
 const Nav = styled.nav<{scrollNav:any}>`
-    background: ${({scrollNav})=>(scrollNav ? '#000':'transparent')};
+    background: ${({scrollNav})=>(scrollNav ? '#101522':'transparent')};
     height: 80px;
     margin-top: -80px;
     display: flex;
@@ -77,7 +77,7 @@ const NavLinks = styled(Link)`
     cursor: pointer;
 
     &.active{
-        border-bottom: 3px solid #01bf71;
+        border-bottom: 3px solid #7AE5F5;
     }
 `;
 const NavBtn = styled.nav`
@@ -89,12 +89,12 @@ const NavBtn = styled.nav`
     }
 `;
 
-const NavBtnLink = styled(LinkR)`
+const NavBtnLink = styled(Link)`
     border-radius: 50px;
-    background: #01bf71;
+    background: #7AE5F5;
     white-space: nowrap;
     padding: 10px 22px;
-    color: #010606;
+    color: #101522;
     font-size: 16px;
     outline: none;
     border: none;
@@ -105,7 +105,7 @@ const NavBtnLink = styled(LinkR)`
     &:hover {
         transition: all 0.2s ease-in-out;
         background: #fff;
-        color: #010606;
+        color: #101522;
     }
 `;
 export {Nav, NavbarContainer, NavLogo, MobileIcon, NavMenu, NavItem, NavLinks, NavBtn, NavBtnLink};

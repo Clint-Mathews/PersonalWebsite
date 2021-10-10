@@ -11,20 +11,20 @@ const InfoSection = ({lightBg,id,topLine,lightText,imgStart,darkText,headLine,de
                         <Column1>
                             <TextWrapper>
                                 <TopLine>{topLine}</TopLine>
-                                <Heading lightText={lightText}>{headLine}</Heading>
+                                {headLine && <Heading lightText={lightText}>{headLine}</Heading>}
                                 <SubTitle darkText={darkText}>{description}</SubTitle>
-                                <BtnWrap>
+                                {buttonLabel && <BtnWrap>
                                     <Button to="home" smooth={true} duration={500} spy={true} dark={dark?true:false} primary={primary ? true:false} offset={-80} >{buttonLabel}</Button>
                                     {/* dark2={dark2?true:false}
                                     exact="true" */}
-                                </BtnWrap>
+                                </BtnWrap>}
                             </TextWrapper>
                         </Column1>
-                        <Column2>
+                        {img && <Column2>
                             <ImgWrap>
                             <Img src={img} alt={alt}/>
                             </ImgWrap>
-                        </Column2>
+                        </Column2>}
                     </InfoRow>
                 </InfoWrapper>
             </InfoContainer> 

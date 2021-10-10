@@ -50,7 +50,7 @@ const SidebarLink = styled(LinkS)`
     color: #fff;
     cursor: pointer;
     &:hover {
-        color: #01bf71;
+        color: #7AE5F5;
         transition: 0.2s ease-in-out;
     }
 `;
@@ -70,10 +70,10 @@ const SidebarMenu = styled.div`
 
 const SiderbarRoute = styled(LinkR)`
     border-radius:50px;
-    background: #01bf71;
+    background: #7AE5F5;
     white-space: nowrap;
     padding: 16px 64px;
-    color: #010606;
+    color: #101522;
     font-size: 16px;
     outline: none;
     border: none;
@@ -84,7 +84,7 @@ const SiderbarRoute = styled(LinkR)`
     &:hover {
         transition: all 0.2s ease-in-out;
         background: #fff;
-        color: #010606;
+        color: #101522;
     }
 `;
 

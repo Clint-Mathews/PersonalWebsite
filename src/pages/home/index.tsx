@@ -1,7 +1,9 @@
+import About from "components/About";
 import Footer from "components/Footer";
 import Services from "components/Services";
+import WorkExperience from "components/WorkExperience";
 import InfoSection from "pages/info";
-import { homeObjOne, homeObjTwo } from "pages/info/data";
+import { homeObjOne } from "pages/info/data";
 import { useState } from "react";
 import { ReactElement } from "react";
 import Navbar from "../../components/Navbar";
@@ -18,9 +20,9 @@ function Home(): ReactElement {
         <Sidebar isOpen={isOpen} toggle={toggle}/>
         <Navbar toggle={toggle}/>
         <Main />
-        <InfoSection {...homeObjOne} />
+        <About />
         <Services />
-        <InfoSection {...homeObjTwo} />
+        <WorkExperience />
         <Footer />
         </>
     );

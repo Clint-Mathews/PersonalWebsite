@@ -1,7 +1,7 @@
 import styled from 'styled-components';
 import {MdKeyboardArrowRight, MdArrowForward} from 'react-icons/md';
 const Maincontainer = styled.div`
-    background:#0c0c0c;
+    background:#101522;
     display: flex;
     justify-content: center;
     align-items: center;

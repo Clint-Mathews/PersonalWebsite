@@ -10,12 +10,12 @@ function Main(): ReactElement {
     }
     return (
         <Maincontainer id='info'>
-            <MainBg>
+            {/* <MainBg>
                 <VideoBg autoPlay loop muted src={Video}/>
-            </MainBg>
+            </MainBg> */}
             <MainContent>
-                <MainH1>Main Page</MainH1>
-                <MainP>Thallu</MainP>
+                <MainH1>SOFTWARE ENGINEER </MainH1>
+                <MainP>Full Stack (.NET Core, Angular, ReactJS)</MainP>
                 <MainBtnWrapper>
                     <Button to="about"
                         onMouseEnter={onHover}
@@ -25,7 +25,7 @@ function Main(): ReactElement {
                         smooth={true} duration={500} spy={true} offset={-80}
                         >
                             
-                        Get started{hover ? <ArrowForward /> : <ArrowRight />}
+                        Let's Go{hover ? <ArrowForward /> : <ArrowRight />}
                     </Button>
                 </MainBtnWrapper>
             </MainContent>

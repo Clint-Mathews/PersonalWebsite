@@ -1,18 +1,18 @@
 import styled from "styled-components";
 
 const ServicesContainer = styled.div`
-height: 600px;
+height: 400px;
 display: flex;
 flex-direction: column;
 justify-content: center;
 align-items: center;
-background: #101522;
+background: white;
 
 @media screen and (max-width:768px) {
-    height: 800px;
+    height: 500px;
 }
 @media screen and (max-width:480px) {
-    height: 800px;
+    height: 500px;
 }
 `;
 
@@ -23,7 +23,7 @@ display: flex;
 flex-direction: column;
 align-items: flex-start;
 padding: 0 50px;
-color: white;
+color: black;
 & div {
     padding: 10px 20px;
 }
@@ -63,7 +63,7 @@ margin-bottom: 10px;
 
 const ServicesH1 = styled.h1`
 font-size: 2.5rem;
-color: #fff;
+color: black;
 margin-bottom: 64px;
 @media screen and (max-width:480px) {
     font-size: 2rem;

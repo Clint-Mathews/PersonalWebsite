@@ -60,13 +60,13 @@ text-decoration: none;
 margin-bottom:0.5rem;
 font-size:14px;
 &:hover {
-    color:#01bf71;
+    color:#7AE5F5;
     transition: 0.3s ease-out;
 }
 `;
 
 const SocialMedia = styled.section`
-max-width: 1000px;
+// max-width: 1000px;
 width: 100%;
 `;
 
@@ -108,6 +108,9 @@ width: 240px;
 const SocialIconLink = styled.a`
 color: #fff;
 font-size: 24px;
+&:hover {
+    color: #7AE5F5;
+  }
 `;
 
 export {FooterContainer,SocialMediaWrap,SocialLogo,WebsiteRights,SocialIcons,SocialIconLink,SocialMedia,FooterLink,FooterLinkTitle,FooterLinkItems,FooterLinksWrapper,FooterWarp,FooterLinksContainer,}
